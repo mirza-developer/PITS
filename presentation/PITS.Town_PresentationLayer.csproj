@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: C:\Users\Software-Lead\Desktop\PITS.Town_Installation\PITS.Town_Installation\PITS.Town_PresentationLayer.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A623A471-6ED7-403F-A8C7-7B97507CB28C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>PITS.Town_PresentationLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>PITS.Town_PresentationLayer</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2">
+      <HintPath>lib\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="MPS.NET_Controls">
+      <HintPath>lib\MPS.NET_Controls.DLL</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PITS.Admin_BussinessLayer">
+      <HintPath>lib\PITS.Admin_BussinessLayer.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cfrmData.cs" />
+    <Compile Include="cfrmMain.cs" />
+    <Compile Include="cFormat.cs" />
+    <Compile Include="cCalculate.cs" />
+    <Compile Include="cConvert.cs" />
+    <Compile Include="frmMessageBox.cs" />
+    <Compile Include="MessageBoxMPS.cs" />
+    <Compile Include="Enum_MsgboxButton.cs" />
+    <Compile Include="Enum_MsgboxDefualButton.cs" />
+    <Compile Include="Enum_MsgboxResualt.cs" />
+    <Compile Include="frmAbout.cs" />
+    <Compile Include="frmBackUp.cs" />
+    <Compile Include="frmConnectionStringSetting.cs" />
+    <Compile Include="frmEnter.cs" />
+    <Compile Include="frmMain.cs" />
+    <Compile Include="frmPassword.cs" />
+    <Compile Include="frmBillData.cs" />
+    <Compile Include="frmBillMain.cs" />
+    <Compile Include="frmFinalBill.cs" />
+    <Compile Include="frmFinalBillData.cs" />
+    <Compile Include="frmHomeData.cs" />
+    <Compile Include="frmHomeMain.cs" />
+    <Compile Include="frmPatternData.cs" />
+    <Compile Include="frmPatternMain.cs" />
+    <Compile Include="frmPeriodUseData.cs" />
+    <Compile Include="frmPeriodUseMain.cs" />
+    <Compile Include="frmUseData.cs" />
+    <Compile Include="frmUseMain.cs" />
+    <Compile Include="frmPrint.cs" />
+    <Compile Include="rptPrint.cs" />
+    <Compile Include="CachedrptPrint.cs" />
+    <Compile Include="My\MyApplication.cs" />
+    <Compile Include="My\MyComputer.cs" />
+    <Compile Include="My\MyProject.cs" />
+    <Compile Include="My\InternalXmlHelper.cs" />
+    <Compile Include="My\MySettings.cs" />
+    <Compile Include="My\MySettingsProperty.cs" />
+    <Compile Include="My\Resources\Resources.cs" />
+    <Compile Include="LoadWithThread\cInputBoxProvider.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="cfrmData.resx" />
+    <EmbeddedResource Include="cfrmMain.resx" />
+    <EmbeddedResource Include="frmAbout.resx" />
+    <EmbeddedResource Include="frmBackUp.resx" />
+    <EmbeddedResource Include="frmBillData.resx" />
+    <EmbeddedResource Include="frmBillMain.resx" />
+    <EmbeddedResource Include="frmConnectionStringSetting.resx" />
+    <EmbeddedResource Include="frmEnter.resx" />
+    <EmbeddedResource Include="frmFinalBill.resx" />
+    <EmbeddedResource Include="frmFinalBillData.resx" />
+    <EmbeddedResource Include="frmHomeData.resx" />
+    <EmbeddedResource Include="frmHomeMain.resx" />
+    <EmbeddedResource Include="frmMain.resx" />
+    <EmbeddedResource Include="frmMessageBox.resx" />
+    <EmbeddedResource Include="frmPassword.resx" />
+    <EmbeddedResource Include="frmPatternData.resx" />
+    <EmbeddedResource Include="frmPatternMain.resx" />
+    <EmbeddedResource Include="frmPeriodUseData.resx" />
+    <EmbeddedResource Include="frmPeriodUseMain.resx" />
+    <EmbeddedResource Include="frmPrint.resx" />
+    <EmbeddedResource Include="frmUseData.resx" />
+    <EmbeddedResource Include="frmUseMain.resx" />
+    <EmbeddedResource Include="Resources.resx" />
+    <EmbeddedResource Include="rptPrint.rpt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
